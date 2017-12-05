@@ -7,7 +7,7 @@ namespace AdventOfCode
 	//Inverse Captcha
 	public class Day1
 	{
-		public static int InverseCatcha(string numberString)
+		public static int Problem1(string numberString)
 		{
 			int sum = 0;
 			for (int i = 0; i < numberString.Length; i++)
@@ -20,7 +20,7 @@ namespace AdventOfCode
 			return sum;
 		}
 
-		public static int InverseCatcha2(string numberString)
+		public static int Problem2(string numberString)
 		{
 			int sum = 0;
 			for (int i = 0; i < numberString.Length; i++)
