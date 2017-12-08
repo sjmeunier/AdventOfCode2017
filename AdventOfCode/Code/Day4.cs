@@ -13,7 +13,7 @@ namespace AdventOfCode
 	{
 		public static int Problem1()
 		{
-			string[] lines = File.ReadAllLines(@"Input\Day4-1.txt");
+			string[] lines = File.ReadAllLines(@"Input\Day4.txt");
 			int totalValid = 0;
 			foreach (string line in lines)
 			{
@@ -26,7 +26,7 @@ namespace AdventOfCode
 
 		public static int Problem2()
 		{
-			string[] lines = File.ReadAllLines(@"Input\Day4-2.txt");
+			string[] lines = File.ReadAllLines(@"Input\Day4.txt");
 			int totalValid = 0;
 			foreach (string line in lines)
 			{

@@ -13,7 +13,7 @@ namespace AdventOfCode
 	{
 		public static int Problem1()
 		{
-			string[] lines = File.ReadAllLines(@"Input\Day5-1.txt");
+			string[] lines = File.ReadAllLines(@"Input\Day5.txt");
 			int[] numbers = new int[lines.Length];
 			for (int i = 0; i < lines.Length; i++)
 				numbers[i] = Convert.ToInt32(lines[i]);
@@ -36,7 +36,7 @@ namespace AdventOfCode
 
 		public static int Problem2()
 		{
-			string[] lines = File.ReadAllLines(@"Input\Day5-2.txt");
+			string[] lines = File.ReadAllLines(@"Input\Day5.txt");
 			int[] numbers = new int[lines.Length];
 			for (int i = 0; i < lines.Length; i++)
 				numbers[i] = Convert.ToInt32(lines[i]);

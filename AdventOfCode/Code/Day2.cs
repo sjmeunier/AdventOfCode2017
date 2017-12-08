@@ -11,7 +11,7 @@ namespace AdventOfCode
 	{
 		public static int Problem1()
 		{
-			string[] lines = File.ReadAllLines(@"Input\Day2-1.txt");
+			string[] lines = File.ReadAllLines(@"Input\Day2.txt");
 
 			int sum = 0;
 
@@ -29,7 +29,7 @@ namespace AdventOfCode
 
 		public static int Problem2()
 		{
-			string[] lines = File.ReadAllLines(@"Input\Day2-2.txt");
+			string[] lines = File.ReadAllLines(@"Input\Day2.txt");
 
 			int sum = 0;
 
