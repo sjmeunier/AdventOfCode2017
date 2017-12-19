@@ -131,6 +131,28 @@ namespace AdventOfCode
 					Console.WriteLine("Problem 2");
 					Console.WriteLine(Day15.Problem2(516, 190));
 				}
+				else if (args[0] == "16")
+				{
+					Console.WriteLine("Problem 1");
+					Console.WriteLine(Day16.Problem1());
+					Console.WriteLine("Problem 2");
+					Console.WriteLine(Day16.Problem2());
+				}
+				else if (args[0] == "17")
+				{
+					Console.WriteLine("Problem 1");
+					Console.WriteLine(Day17.Problem1());
+					Console.WriteLine("Problem 2");
+					Console.WriteLine(Day17.Problem2());
+				}
+				else if (args[0] == "18")
+				{
+					Console.WriteLine("Problem 1");
+					Console.WriteLine(Day18.Problem1());
+					Console.WriteLine("Problem 2");
+					Console.WriteLine(Day18.Problem2());
+				}
+
 			}
 		}
 	}
