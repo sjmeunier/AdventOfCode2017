@@ -1,14 +1,4 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System;
-using System.Drawing;
-using System.Globalization;
-using System.Linq;
-using System.Net.Http;
-using System.Reflection;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Xml.Schema;
+﻿using System.IO;
 
 namespace AdventOfCode
 {
